@@ -56,6 +56,7 @@ echo "</tr>";
 
 }
 }
+mysqli_close($con);
 ?>
 		</table>
 	</div>

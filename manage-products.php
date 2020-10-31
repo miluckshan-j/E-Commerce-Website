@@ -61,6 +61,7 @@ if(!isset($_SESSION["ausername"]))
 
     }
     }
+    mysqli_close($con);
     ?>
           </table>
 </div>

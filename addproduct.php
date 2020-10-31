@@ -109,7 +109,8 @@ if(!isset($_SESSION["ausername"]))
   					echo "Opps something is wrong, Please select the file again";
   				}
 
-  		   }
+         }
+         mysqli_close($con);
 
   		   ?>
 
