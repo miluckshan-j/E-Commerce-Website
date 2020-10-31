@@ -71,6 +71,7 @@
     echo "Please enter the correct username and password";
   }
   }
+  mysqli_close($con);
   ?>
           <input class="filter-button" name="btnLogin" type="submit" value="Log In">
         </form>

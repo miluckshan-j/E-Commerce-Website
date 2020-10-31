@@ -101,6 +101,8 @@
          $games++; // increment the $games element so we know how many games we've already processed
       }
     }
+
+    mysqli_close($con);
       ?>
       </table>
     </div>

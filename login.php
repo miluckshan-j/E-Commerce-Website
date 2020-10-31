@@ -67,6 +67,7 @@
     echo "Please enter the correct username and password";
     }
     }
+    mysqli_close($con);
     ?>
             <p>New User? <a href="register.php">Sign Up</a></p>
           <input class="filter-button" name="btnLogin" type="submit" value="Log In">

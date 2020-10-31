@@ -29,4 +29,5 @@
 
 		   header('Location:profile.php');
 
+		   mysqli_close($con);
 		   ?>

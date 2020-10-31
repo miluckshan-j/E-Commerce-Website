@@ -66,6 +66,7 @@
 
           }
 
+          mysqli_close($con);
           ?>
 
           <input name="btnSubmit" class="filter-button" type="submit" value="Register">
